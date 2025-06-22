@@ -3,7 +3,8 @@
     "Dapp-icp-backend": {
       "candid": "src/Dapp-icp-backend/Dapp-icp-backend.did",
       "package": "Dapp-icp-backend",
-      "type": "rust"
+      "type": "rust",
+      "build": "cargo build --target wasm32-unknown-unknown --release"
     },
     "Dapp-icp-frontend": {
       "dependencies": [
